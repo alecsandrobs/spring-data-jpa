@@ -5,6 +5,7 @@ import br.com.alecsandro.estudos.error.ResourseNotFoundException;
 import br.com.alecsandro.estudos.model.Lancamento;
 import br.com.alecsandro.estudos.repository.LancamentoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -24,8 +25,8 @@ public class LancamentoEndpoint {
     }
 
     @GetMapping
-    public ResponseEntity<?> listAll() {
-        return new ResponseEntity<>(dao.findAll(), HttpStatus.OK);
+    public ResponseEntity<?> listAll(Pageable pageable) {
+        return new ResponseEntity<>(dao.findAll(pageable), HttpStatus.OK);
     }
 
     @GetMapping(path = "/{id}")

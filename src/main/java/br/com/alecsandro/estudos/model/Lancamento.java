@@ -10,14 +10,14 @@ import java.time.LocalDateTime;
 @Table(name = "lancamentos")
 public class Lancamento extends AbstractEntity {
 
-    @NotEmpty
+    @NotEmpty(message = "O campo data é obrigatório")
     private LocalDateTime data;
 
-    @NotEmpty
+    @NotEmpty(message = "O campo fornecedor é obrigatório")
     @ManyToOne
     private Fornecedor fornecedor;
 
-    @NotEmpty
+    @NotEmpty(message = "O campo valor é obrigatório")
     private Double valor;
     private LocalDateTime pagamento;
 
