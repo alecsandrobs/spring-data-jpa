@@ -1,13 +1,13 @@
-package br.com.springInitializr.demo;
+package br.com.alecsandro.estudos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootEssentialsApplication {
+public class MyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootEssentialsApplication.class, args);
+        SpringApplication.run(MyApplication.class, args);
     }
 
 }

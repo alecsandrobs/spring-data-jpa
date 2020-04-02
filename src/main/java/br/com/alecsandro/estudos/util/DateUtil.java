@@ -1,4 +1,4 @@
-package br.com.springInitializr.demo.util;
+package br.com.alecsandro.estudos.util;
 
 import org.springframework.stereotype.Component;
 

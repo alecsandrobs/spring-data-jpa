@@ -1,4 +1,4 @@
-package br.com.springInitializr.demo.error;
+package br.com.alecsandro.estudos.error;
 
 public class CustomErrorType {
 

@@ -1,10 +1,10 @@
-package br.com.springInitializr.demo;
+package br.com.alecsandro.estudos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootEssentialsApplicationTests {
+class MyApplicationTests {
 
 	@Test
 	void contextLoads() {
