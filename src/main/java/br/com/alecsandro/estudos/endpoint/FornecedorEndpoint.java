@@ -1,6 +1,5 @@
 package br.com.alecsandro.estudos.endpoint;
 
-import br.com.alecsandro.estudos.error.CustomErrorType;
 import br.com.alecsandro.estudos.error.ResourseNotFoundException;
 import br.com.alecsandro.estudos.model.Fornecedor;
 import br.com.alecsandro.estudos.repository.FornecedorRepository;
@@ -8,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
@@ -55,6 +55,7 @@ public class FornecedorEndpoint {
     }
 
     @DeleteMapping(path = "/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<?> delete(@PathVariable Long id) {
         verifyIfExists(id);
         dao.deleteById(id);
