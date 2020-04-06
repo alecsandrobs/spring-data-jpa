@@ -1,4 +1,4 @@
-package br.com.alecsandro.estudos.z_outrosExemplos;
+package br.com.alecsandro.estudos.javaClient;
 
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.apache.tomcat.util.http.fileupload.IOUtils;
@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class RequisicaoGetJavaPuro {
+public class JavaClientTest {
 
     public static void main(String[] args) {
         HttpURLConnection connection = null;

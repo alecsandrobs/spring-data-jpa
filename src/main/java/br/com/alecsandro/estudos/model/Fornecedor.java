@@ -18,4 +18,11 @@ public class Fornecedor extends AbstractEntity {
     public void setNome(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Fornecedor{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
