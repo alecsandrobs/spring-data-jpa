@@ -8,7 +8,7 @@ import javax.validation.constraints.NotEmpty;
 @Table(name = "fornecedores")
 public class Fornecedor extends AbstractEntity {
 
-    @NotEmpty(message = "O campo nome é obrigatório")
+    @NotEmpty(message = "O nome é obrigatório")
     private String name;
 
     public String getName() {

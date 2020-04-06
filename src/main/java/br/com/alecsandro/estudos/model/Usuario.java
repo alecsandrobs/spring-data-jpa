@@ -1,7 +1,5 @@
 package br.com.alecsandro.estudos.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
@@ -18,11 +16,11 @@ public class Usuario extends AbstractEntity {
     @Column(unique = true)
     private String usuario;
 
-//    @JsonIgnore
+    //    @JsonIgnore
     @NotEmpty(message = "A senha é obrigatória")
     private String senha;
 
-//    @NotEmpty(message = "É necessário informar se é administrador ou não")
+    //    @NotEmpty(message = "É necessário informar se é administrador ou não")
     private Boolean admin;
 
     public String getNome() {

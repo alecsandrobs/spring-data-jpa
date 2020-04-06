@@ -11,7 +11,7 @@ import java.util.Objects;
 public class AbstractEntity implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Override
@@ -20,13 +20,11 @@ public class AbstractEntity implements Serializable {
         if (o == null || getClass() != o.getClass()) return false;
         AbstractEntity that = (AbstractEntity) o;
         return Objects.equals(id, that.id);
-//        return id != null ? id.equals(that.id) : that.id == null;
     }
 
     @Override
     public int hashCode() {
         return Objects.hash(id);
-//        return id != null ? id.hashCode() : 0;
     }
 
     public Long getId() {
