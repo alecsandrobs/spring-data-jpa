@@ -11,7 +11,14 @@ public class Fornecedor extends AbstractEntity {
     @NotEmpty(message = "O nome é obrigatório")
     private String name;
 
-    public String getName() {
+    public Fornecedor() {
+    }
+
+    public Fornecedor(@NotEmpty(message = "O nome é obrigatório") String name) {
+        this.name = name;
+    }
+
+    public String getNome() {
         return name;
     }
 

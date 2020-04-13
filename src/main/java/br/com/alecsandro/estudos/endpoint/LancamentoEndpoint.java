@@ -1,6 +1,5 @@
 package br.com.alecsandro.estudos.endpoint;
 
-import br.com.alecsandro.estudos.error.CustomErrorType;
 import br.com.alecsandro.estudos.error.ResourseNotFoundException;
 import br.com.alecsandro.estudos.model.Lancamento;
 import br.com.alecsandro.estudos.repository.LancamentoRepository;

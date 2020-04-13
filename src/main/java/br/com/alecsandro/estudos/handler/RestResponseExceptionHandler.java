@@ -12,9 +12,7 @@ public class RestResponseExceptionHandler extends DefaultResponseErrorHandler {
 
     @Override
     public boolean hasError(ClientHttpResponse response) throws IOException {
-        System.out.println("---=== Erro na requisição ===----");
-        System.out.println(response.getStatusCode());
-        System.out.println("---=== Erro na requisição ===----");
+        System.out.println(String.format("Request status: %s", response.getStatusCode()));
         return super.hasError(response);
     }
 

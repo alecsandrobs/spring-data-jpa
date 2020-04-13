@@ -8,14 +8,14 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class JavaClientTest {
+public class LancamentosJavaClientTest {
 
     public static void main(String[] args) {
         HttpURLConnection connection = null;
         BufferedReader reader = null;
 
         try {
-            URL url = new URL("http://localhost:8080/fornecedores");
+            URL url = new URL("http://localhost:8080/lancamentos");
             connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
             connection.addRequestProperty("Authorization", String.format("Basic %s", encodeUserPass("teste", "1234567")));

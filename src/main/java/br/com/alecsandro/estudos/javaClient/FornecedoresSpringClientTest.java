@@ -2,14 +2,14 @@ package br.com.alecsandro.estudos.javaClient;
 
 import br.com.alecsandro.estudos.model.Fornecedor;
 
-public class JavaSpringClientTest {
+public class FornecedoresSpringClientTest {
 
     public static void main(String[] args) {
 
         Fornecedor fornecedor = new Fornecedor();
         fornecedor.setNome("Criação com Java Puro");
 
-        JavaClientDAO dao = new JavaClientDAO();
+        FornecedoresDAO dao = new FornecedoresDAO();
 
 //        POST
 //        dao.save(fornecedor);
@@ -22,12 +22,17 @@ public class JavaSpringClientTest {
 //        GET BY ID
 //        System.out.println(dao.findById(38L));
 
+//        GET BY NAME
+//        dao.
+
 //        DELETE
 //        dao.remove(39L);
 
 //        GET ALL
+        System.out.println("Listando os fornecedores");
+        System.out.println();
         dao.listAll().forEach(item -> {
-            System.out.println(item.getName());
+            System.out.println(item.getNome());
         });
     }
 }
