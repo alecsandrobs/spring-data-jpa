@@ -9,27 +9,27 @@ import javax.validation.constraints.NotEmpty;
 public class Fornecedor extends AbstractEntity {
 
     @NotEmpty(message = "O nome é obrigatório")
-    private String name;
+    private String nome;
 
     public Fornecedor() {
     }
 
-    public Fornecedor(@NotEmpty(message = "O nome é obrigatório") String name) {
-        this.name = name;
+    public Fornecedor(@NotEmpty(message = "O nome é obrigatório") String nome) {
+        this.nome = nome;
     }
 
     public String getNome() {
-        return name;
+        return nome;
     }
 
-    public void setNome(String name) {
-        this.name = name;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     @Override
     public String toString() {
         return "Fornecedor{" +
-                "name='" + name + '\'' +
+                "nome='" + nome + '\'' +
                 '}';
     }
 }

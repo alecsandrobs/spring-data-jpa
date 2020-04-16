@@ -63,7 +63,7 @@ public class FornecedorRepositoryTest {
         Fornecedor fornecedor2 = new Fornecedor(nome2);
         this.fornecedorRepository.save(fornecedor1);
         this.fornecedorRepository.save(fornecedor2);
-        List<Fornecedor> fornecedores = fornecedorRepository.findByNameIgnoreCaseContaining(nome2);
+        List<Fornecedor> fornecedores = fornecedorRepository.findByNomeIgnoreCaseContaining(nome2);
         assertThat(fornecedores.size()).isEqualTo(2);
     }
 

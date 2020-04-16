@@ -42,19 +42,11 @@ public class CadastraLancamentosArquivoJson {
 
             FornecedoresDAO fornecedoresDAO = new FornecedoresDAO();
 
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+//            aguardar();
 
             List<Fornecedor> fornecedores = fornecedoresDAO.findByName(fornecedorNome);
 
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            aguardar();
 
             Fornecedor fornecedorSelecionado = null;
             for (Fornecedor fornecedor : fornecedores) {
@@ -72,8 +64,16 @@ public class CadastraLancamentosArquivoJson {
         }
     }
 
+    private static void aguardar(){
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
     private static String getFileContent() throws IOException {
-        List<String> linhas = Files.readAllLines(Paths.get("/home/alecsandro/git/files/lancamentosPagar.json"), Charset.forName("UTF-8"));
+        List<String> linhas = Files.readAllLines(Paths.get("files/lancamentos.json"), Charset.forName("UTF-8"));
         String texto = null;
         for (String linha : linhas) {
             if (texto != null) {

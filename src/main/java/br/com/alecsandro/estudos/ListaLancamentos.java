@@ -1,7 +1,9 @@
-package br.com.alecsandro.estudos.util;
+package br.com.alecsandro.estudos;
 
 import br.com.alecsandro.estudos.javaClient.LancamentosDAO;
 import br.com.alecsandro.estudos.model.Lancamento;
+import br.com.alecsandro.estudos.util.DateUtil;
+import br.com.alecsandro.estudos.util.Util;
 
 import java.util.Enumeration;
 import java.util.List;

@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface LancamentoRepository extends PagingAndSortingRepository<Lancamento, Long> {
 
-    List<Lancamento> findByFornecedorNameIgnoreCaseContaining(String name);
+    List<Lancamento> findByFornecedorNomeIgnoreCaseContaining(String name);
 }

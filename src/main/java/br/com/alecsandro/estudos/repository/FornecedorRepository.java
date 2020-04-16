@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface FornecedorRepository extends PagingAndSortingRepository<Fornecedor, Long> {
 
-    List<Fornecedor> findByNameIgnoreCaseContaining(String name);
+    List<Fornecedor> findByNomeIgnoreCaseContaining(String nome);
 }

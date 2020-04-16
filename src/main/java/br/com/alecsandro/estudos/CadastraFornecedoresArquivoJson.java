@@ -26,7 +26,7 @@ public class CadastraFornecedoresArquivoJson {
     }
 
     private static String getFileContent() throws IOException {
-        List<String> linhas = Files.readAllLines(Paths.get("/home/alecsandro/git/files/fornecedores.json"), Charset.forName("UTF-8"));
+        List<String> linhas = Files.readAllLines(Paths.get("files/fornecedores.json"), Charset.forName("UTF-8"));
         String texto = null;
         for (String linha : linhas) {
             if (texto != null) {
