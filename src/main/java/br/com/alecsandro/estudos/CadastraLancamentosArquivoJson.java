@@ -44,7 +44,7 @@ public class CadastraLancamentosArquivoJson {
 
 //            aguardar();
 
-            List<Fornecedor> fornecedores = fornecedoresDAO.findByName(fornecedorNome);
+            List<Fornecedor> fornecedores = fornecedoresDAO.findByNome(fornecedorNome);
 
             aguardar();
 
@@ -64,7 +64,7 @@ public class CadastraLancamentosArquivoJson {
         }
     }
 
-    private static void aguardar(){
+    private static void aguardar() {
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {

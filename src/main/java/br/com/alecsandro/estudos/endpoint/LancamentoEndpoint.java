@@ -35,8 +35,8 @@ public class LancamentoEndpoint {
         return new ResponseEntity<>(lancamento, HttpStatus.OK);
     }
 
-    @GetMapping(path = "/findByFornecedorName/{name}")
-    public ResponseEntity<?> findByFornecedorName(@PathVariable String nome) {
+    @GetMapping(path = "/findByFornecedorNome/{nome}")
+    public ResponseEntity<?> findByFornecedorNome(@PathVariable String nome) {
         return new ResponseEntity<>(dao.findByFornecedorNomeIgnoreCaseContaining(nome), HttpStatus.OK);
     }
 

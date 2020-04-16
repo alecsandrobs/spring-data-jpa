@@ -43,10 +43,10 @@ public class FornecedoresDAO {
         return exchange.getBody().getContent();
     }
 
-    public List<Fornecedor> findByName(String name) {
-        ResponseEntity<List<Fornecedor>> exchange = dao.exchange("/fornecedores/findByName/{name}", HttpMethod.GET, null,
+    public List<Fornecedor> findByNome(String nome) {
+        ResponseEntity<List<Fornecedor>> exchange = dao.exchange("/fornecedores/findByNome/{nome}", HttpMethod.GET, null,
                 new ParameterizedTypeReference<List<Fornecedor>>() {
-                }, name);
+                }, nome);
         return exchange.getBody();
     }
 

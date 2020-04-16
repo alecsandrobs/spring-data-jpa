@@ -13,19 +13,19 @@ public class LancamentosSpringClientTest {
 
         FornecedoresDAO fornecedoresDAO = new FornecedoresDAO();
 
-        String name = "Valdeci";
-        List<Fornecedor> fornecedores = fornecedoresDAO.findByName(name);
+        String nome = "Valdeci";
+        List<Fornecedor> fornecedores = fornecedoresDAO.findByNome(nome);
 
         Fornecedor fornecedorSelecionado = null;
         for (Fornecedor fornecedor : fornecedores) {
-            if (name.equalsIgnoreCase(fornecedor.getNome())) {
+            if (nome.equalsIgnoreCase(fornecedor.getNome())) {
                 fornecedorSelecionado = fornecedor;
             }
         }
 
         if (fornecedorSelecionado == null) {
-            System.out.println(String.format("[Não encontrou o fornecedor %s]", name));
-            throw new RuntimeException(String.format("[Não encontrou o fornecedor %s]", name));
+            System.out.println(String.format("[Não encontrou o fornecedor %s]", nome));
+            throw new RuntimeException(String.format("[Não encontrou o fornecedor %s]", nome));
         }
 
         Lancamento lancamento = new Lancamento(LocalDate.now(), fornecedorSelecionado, 123.45, null, "Primeira inserção de lançamento.");

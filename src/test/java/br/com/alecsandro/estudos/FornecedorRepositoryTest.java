@@ -57,7 +57,7 @@ public class FornecedorRepositoryTest {
     }
 
     @Test
-    public void findByNameIgnoreCaseContainingShouldIgnoreCase() {
+    public void findByNomeIgnoreCaseContainingShouldIgnoreCase() {
         String nome2 = "fornecedor teste";
         Fornecedor fornecedor1 = new Fornecedor(nome);
         Fornecedor fornecedor2 = new Fornecedor(nome2);

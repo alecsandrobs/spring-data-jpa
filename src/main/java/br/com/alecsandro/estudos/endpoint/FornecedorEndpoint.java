@@ -37,9 +37,9 @@ public class FornecedorEndpoint {
         return new ResponseEntity<>(fornecedor, HttpStatus.OK);
     }
 
-    @GetMapping(path = "/findByName/{name}")
-    public ResponseEntity<?> findByName(@PathVariable String name) {
-        return new ResponseEntity<>(dao.findByNomeIgnoreCaseContaining(name), HttpStatus.OK);
+    @GetMapping(path = "/findByNome/{nome}")
+    public ResponseEntity<?> findByNome(@PathVariable String nome) {
+        return new ResponseEntity<>(dao.findByNomeIgnoreCaseContaining(nome), HttpStatus.OK);
     }
 
     @PostMapping
