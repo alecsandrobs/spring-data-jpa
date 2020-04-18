@@ -27,7 +27,7 @@ public class LancamentosJavaClientTest {
             }
             System.out.println(sb.toString());
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         } finally {
             IOUtils.closeQuietly(reader);
             if (connection != null) {
