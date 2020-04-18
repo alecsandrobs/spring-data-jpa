@@ -1,662 +1,684 @@
 [
-    {
-        "data": "2019-08-19",
-        "fornecedor": "Início da obra",
-        "valor": 0.00,
-        "pagamento": "2019-08-19",
-        "observacoes": "Limpeza do terreno"
-    },
-    {
-        "data": "2019-08-23",
-        "fornecedor": "Ferro Peterle",
-        "valor": 400.00,
-        "pagamento": "2019-08-23",
-        "observacoes": "10 barras de ferro de 10mm"
-    },
-    {
-        "data": "2019-08-23",
-        "fornecedor": "João Carlos Zanette",
-        "valor": 200.00,
-        "pagamento": "2019-08-23",
-        "observacoes": "Aluguel Conteiner Silti"
-    },
-    {
-        "data": "2019-08-26",
-        "fornecedor": "Furação terreno",
-        "valor": 1050.00,
-        "pagamento": "2019-08-26",
-        "observacoes": "serviço de furação terreno"
-    },
-    {
-        "data": "2019-08-26",
-        "fornecedor": "Longo materiais de construção",
-        "valor": 850.00,
-        "pagamento": "2019-08-26",
-        "observacoes": "madeiras para fundação"
-    },
-    {
-        "data": "2019-08-26",
-        "fornecedor": "ArcelorMittal",
-        "valor": 2174.14,
-        "pagamento": "2019-08-26",
-        "observacoes": "ferros, arames e pregos para fundação"
-    },
-    {
-        "data": "2019-08-27",
-        "fornecedor": "Longo materiais de construção",
-        "valor": 70.00,
-        "pagamento": "2019-08-27",
-        "observacoes": "1 mt areia lavada para fundação"
-    },
-    {
-        "data": "2019-08-28",
-        "fornecedor": "Pizzoni materiais de construção",
-        "valor": 1485.00,
-        "pagamento": "2019-08-28",
-        "observacoes": "-"
-    },
-    {
-        "data": "2019-08-30",
-        "fornecedor": "Valdeci",
-        "valor": 2560.00,
-        "pagamento": "2019-08-30",
-        "observacoes": "Valdeci, Guilherme e Beto - Mão de obra (sapata)"
-    },
-    {
-        "data": "2019-09-04",
-        "fornecedor": "João Vitor Antunes",
-        "valor": 2773.00,
-        "pagamento": "2019-09-04",
-        "observacoes": "Lage treliçada (lage) primeira etapa."
-    },
-    {
-        "data": "2019-09-09",
-        "fornecedor": "Jean (instalação elétrica)",
-        "valor": 1100.00,
-        "pagamento": "2019-09-09",
-        "observacoes": "instalação necessária para ligação da energia (Transferido para o Valdeci pagar)"
-    },
-    {
-        "data": "2019-09-11",
-        "fornecedor": "Folchini empreendimentos imobiliários",
-        "valor": 3080.00,
-        "pagamento": "2019-09-11",
-        "observacoes": "primeira lage (chão)"
-    },
-    {
-        "data": "2019-09-13",
-        "fornecedor": "Valdeci",
-        "valor": 3300.00,
-        "pagamento": "2019-09-13",
-        "observacoes": "Transferido para o Valdeci (ainda falta acertar o valor do Ademir e Antenor) Mão de obra (lage e concreto)"
-    },
-    {
-        "data": "0209-09-18",
-        "fornecedor": "Longo materiais de construção",
-        "valor": 395.00,
-        "pagamento": "0209-09-18",
-        "observacoes": "-"
-    },
-    {
-        "data": "2019-09-23",
-        "fornecedor": "D'oro",
-        "valor": 3117.00,
-        "pagamento": "2019-09-23",
-        "observacoes": "Compra Alianças"
-    },
-    {
-        "data": "2019-09-27",
-        "fornecedor": "Valdeci",
-        "valor": 3550.00,
-        "pagamento": "2019-09-27",
-        "observacoes": "Levantamento de paredes (50 reais de água e energia emprestado) - Mão de obra"
-    },
-    {
-        "data": "2019-10-04",
-        "fornecedor": "Longo materiais de construção",
-        "valor": 6390.00,
-        "pagamento": "2019-10-04",
-        "observacoes": "Canos, tijolos, cimento areia, ferro e cal e mais..."
-    },
-    {
-        "data": "2019-10-08",
-        "fornecedor": "ArcelorMittal",
-        "valor": 2571.15,
-        "pagamento": "2019-10-08",
-        "observacoes": "Ferros para a lage do teto"
-    },
-    {
-        "data": "2019-10-11",
-        "fornecedor": "Valdeci",
-        "valor": 3400.00,
-        "pagamento": "2019-10-11",
-        "observacoes": "Transferido para o Valdeci"
-    },
-    {
-        "data": "2019-10-17",
-        "fornecedor": "Pizzoni materiais de construção",
-        "valor": 213.00,
-        "pagamento": "2019-10-17",
-        "observacoes": "Tábuas, cimento cola e arame"
-    },
-    {
-        "data": "2019-10-21",
-        "fornecedor": "João Vitor Antunes",
-        "valor": 2949.40,
-        "pagamento": "2019-10-21",
-        "observacoes": "Lage treliçada (lage)"
-    },
-    {
-        "data": "2019-10-25",
-        "fornecedor": "Valdeci",
-        "valor": 3000.00,
-        "pagamento": "2019-10-25",
-        "observacoes": "mao de obra"
-    },
-    {
-        "data": "2019-10-30",
-        "fornecedor": "Domingos",
-        "valor": 150.00,
-        "pagamento": "2019-10-30",
-        "observacoes": "Mão de obra do concreto (teto) - Ademir e Antenor"
-    },
-    {
-        "data": "2019-10-30",
-        "fornecedor": "Folchini empreendimentos imobiliários",
-        "valor": 3760.00,
-        "pagamento": "2019-10-30",
-        "observacoes": "segunda lage (teto)"
-    },
-    {
-        "data": "2019-11-01",
-        "fornecedor": "João Carlos Zanette",
-        "valor": 160.00,
-        "pagamento": "2019-11-01",
-        "observacoes": "Aluguel Conteiner Silti"
-    },
-    {
-        "data": "2019-11-01",
-        "fornecedor": "Pizzoni materiais de construção",
-        "valor": 179.00,
-        "pagamento": "2019-11-01",
-        "observacoes": "-"
-    },
-    {
-        "data": "2019-11-08",
-        "fornecedor": "Valdeci",
-        "valor": 3000.00,
-        "pagamento": "2019-11-08",
-        "observacoes": "Lage do teto, corte de parede para caixas e canos de energia Mão de obra (lage e concreto)"
-    },
-    {
-        "data": "2019-11-08",
-        "fornecedor": "Longo materiais de construção",
-        "valor": 2700.00,
-        "pagamento": "2019-11-08",
-        "observacoes": "-"
-    },
-    {
-        "data": "2019-11-08",
-        "fornecedor": "João Vitor Antunes",
-        "valor": 230.00,
-        "pagamento": "2019-11-08",
-        "observacoes": "lage treliçada para a casa da caixa d'água (lage)"
-    },
-    {
-        "data": "2019-11-22",
-        "fornecedor": "Valdeci",
-        "valor": 3300.00,
-        "pagamento": "2019-11-22",
-        "observacoes": "mão de obra parte superior (lage caixa d'água)"
-    },
-    {
-        "data": "2019-11-26",
-        "fornecedor": "Alberto Feliciano",
-        "valor": 2000.00,
-        "pagamento": "2019-11-26",
-        "observacoes": "Encanação (água quente e fria)"
-    },
-    {
-        "data": "2019-11-29",
-        "fornecedor": "João Carlos Zanette",
-        "valor": 180.00,
-        "pagamento": "2019-11-29",
-        "observacoes": "Aluguel Conteiner Silti"
-    },
-    {
-        "data": "2019-12-02",
-        "fornecedor": "Madeireiras Tramavam",
-        "valor": 1015.00,
-        "pagamento": "2019-12-02",
-        "observacoes": "madeiras para armação do telhado"
-    },
-    {
-        "data": "2019-12-05",
-        "fornecedor": "Pizzoni materiais de construção",
-        "valor": 359.00,
-        "pagamento": "2019-12-05",
-        "observacoes": "-"
-    },
-    {
-        "data": "2019-12-06",
-        "fornecedor": "Incobel",
-        "valor": 9800.00,
-        "pagamento": "2019-12-06",
-        "observacoes": "marcos, vistas e aberturas internas e externas"
-    },
-    {
-        "data": "2019-12-06",
-        "fornecedor": "Longo materiais de construção",
-        "valor": 5200.00,
-        "pagamento": "2019-12-06",
-        "observacoes": "-"
-    },
-    {
-        "data": "2019-12-06",
-        "fornecedor": "Valdeci",
-        "valor": 5000.00,
-        "pagamento": "2019-12-06",
-        "observacoes": "Mão de obra"
-    },
-    {
-        "data": "2019-12-10",
-        "fornecedor": "Domingos",
-        "valor": 360.00,
-        "pagamento": "2019-12-10",
-        "observacoes": "Pago para o Antenor (armação para o telhado)"
-    },
-    {
-        "data": "2019-12-11",
-        "fornecedor": "Refricril",
-        "valor": 975.52,
-        "pagamento": "2019-12-11",
-        "observacoes": "Materiais para instalação de ar condicionado"
-    },
-    {
-        "data": "2019-12-16",
-        "fornecedor": "Daniel (calhas)",
-        "valor": 580.00,
-        "pagamento": "2019-12-16",
-        "observacoes": "Calhas do meio do telhado (transferido para o Valdeci)"
-    },
-    {
-        "data": "2019-12-17",
-        "fornecedor": "Rafael",
-        "valor": 480.00,
-        "pagamento": "2019-12-17",
-        "observacoes": "Pré instalação do sistema de ar condicionado"
-    },
-    {
-        "data": "2019-12-18",
-        "fornecedor": "Nola revestimentos cerâmicos",
-        "valor": 12818.36,
-        "pagamento": "2019-12-18",
-        "observacoes": "Cerâmica (pisos e azulejos)"
-    },
-    {
-        "data": "2019-12-20",
-        "fornecedor": "Valdeci",
-        "valor": 5500.00,
-        "pagamento": "2019-12-20",
-        "observacoes": "Mão de obra"
-    },
-    {
-        "data": "2019-12-20",
-        "fornecedor": "Domingos",
-        "valor": 157.00,
-        "pagamento": "2019-12-20",
-        "observacoes": "Tela e ripa para a calha do telhado"
-    },
-    {
-        "data": "2019-12-20",
-        "fornecedor": "Domingos",
-        "valor": 160.00,
-        "pagamento": "2019-12-20",
-        "observacoes": "Mão de obra feito pelo Antenor"
-    },
-    {
-        "data": "2019-12-20",
-        "fornecedor": "Pizzoni materiais de construção",
-        "valor": 128.00,
-        "pagamento": "2019-12-20",
-        "observacoes": "-"
-    },
-    {
-        "data": "2019-12-27",
-        "fornecedor": "João Carlos Zanette",
-        "valor": 180.00,
-        "pagamento": "2019-12-27",
-        "observacoes": "Aluguel Conteiner Silti"
-    },
-    {
-        "data": "0202-01-03",
-        "fornecedor": "Valdeci",
-        "valor": 2200.00,
-        "pagamento": "0202-01-03",
-        "observacoes": "Mão de obra"
-    },
-    {
-        "data": "2020-01-03",
-        "fornecedor": "Pizzoni materiais de construção",
-        "valor": 42.00,
-        "pagamento": "2020-01-03",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-01-06",
-        "fornecedor": "Longo materiais de construção",
-        "valor": 3100.00,
-        "pagamento": "2020-01-06",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-01-17",
-        "fornecedor": "Valdeci",
-        "valor": 3500.00,
-        "pagamento": "2020-01-17",
-        "observacoes": "mão de obra (massa fina interna e contrapiso)"
-    },
-    {
-        "data": "2020-01-27",
-        "fornecedor": "Pizzoni materiais de construção",
-        "valor": 339.00,
-        "pagamento": "2020-01-27",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-01-27",
-        "fornecedor": "Nola revestimentos cerâmicos",
-        "valor": 270.00,
-        "pagamento": "2020-01-27",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-01-27",
-        "fornecedor": "Ornamento",
-        "valor": 320.00,
-        "pagamento": "2020-01-27",
-        "observacoes": "Soleiras das janelas (pedras)"
-    },
-    {
-        "data": "2020-01-28",
-        "fornecedor": "João Carlos Zanette",
-        "valor": 180.00,
-        "pagamento": "2020-01-28",
-        "observacoes": "Aluguel Conteiner Silti"
-    },
-    {
-        "data": "2020-01-30",
-        "fornecedor": "DAS - Simples Nacional",
-        "valor": 387.14,
-        "pagamento": "2020-01-30",
-        "observacoes": "Valdeci"
-    },
-    {
-        "data": "2020-01-31",
-        "fornecedor": "Valdeci",
-        "valor": 3000.00,
-        "pagamento": "2020-01-31",
-        "observacoes": "Mão de obra"
-    },
-    {
-        "data": "2020-01-31",
-        "fornecedor": "Daniel (calhas)",
-        "valor": 1000.00,
-        "pagamento": "2020-01-31",
-        "observacoes": "Calhas das laterais do telhado (Transferido para o Valdeci)"
-    },
-    {
-        "data": "2020-01-31",
-        "fornecedor": "Pizzoni materiais de construção",
-        "valor": 97.00,
-        "pagamento": "2020-01-31",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-01-31",
-        "fornecedor": "Longo materiais de construção",
-        "valor": 260.00,
-        "pagamento": "2020-01-31",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-02-14",
-        "fornecedor": "Pizzoni materiais de construção",
-        "valor": 418.00,
-        "pagamento": "2020-02-14",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-02-14",
-        "fornecedor": "Valdeci",
-        "valor": 2500.00,
-        "pagamento": "2020-02-14",
-        "observacoes": "Mão de obra"
-    },
-    {
-        "data": "2020-02-14",
-        "fornecedor": "Gustavo Santana Ferragens",
-        "valor": 3780.00,
-        "pagamento": "2020-02-14",
-        "observacoes": "Ferragens para as aberturas"
-    },
-    {
-        "data": "2020-02-17",
-        "fornecedor": "Valdeci",
-        "valor": 140.00,
-		"pagamento": "2020-02-17",
-        "dapagamentota": "2020-02-17",
-        "observacoes": "120 para o ajudante do Vardinho (aberturas) e 20 reais para o Valdo pesquisar preços para a parte elétrica"
-    },
-    {
-        "data": "2020-02-20",
-        "fornecedor": "Casa do eletricista",
-        "valor": 694.58,
-        "pagamento": "2020-02-20",
-        "observacoes": "Fios para instalação elétrica inicial"
-    },
-    {
-        "data": "2020-02-27",
-        "fornecedor": "João Carlos Zanette",
-        "valor": 180.00,
-        "pagamento": "2020-02-27",
-        "observacoes": "Aluguel Conteiner Silti"
-    },
-    {
-        "data": "2020-02-28",
-        "fornecedor": "Pizzoni materiais de construção",
-        "valor": 287.00,
-        "pagamento": "2020-02-28",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-02-28",
-        "fornecedor": "Vanessa Galvão Alexandre",
-        "valor": 600.00,
-        "pagamento": "2020-02-28",
-        "observacoes": "Projeto dos móveis da casa"
-    },
-    {
-        "data": "2020-02-28",
-        "fornecedor": "Valdeci",
-        "valor": 2400.00,
-        "pagamento": "2020-02-28",
-        "observacoes": "Mão de obra"
-    },
-    {
-        "data": "2020-03-02",
-        "fornecedor": "Valdo",
-        "valor": 800.00,
-        "pagamento": "2020-03-02",
-        "observacoes": "Instalação elétrica"
-    },
-    {
-        "data": "2020-03-06",
-        "fornecedor": "Edson Castelan (fossa)",
-        "valor": 1730.00,
-        "pagamento": "2020-03-06",
-        "observacoes": "Instalação da fossa"
-    },
-    {
-        "data": "2020-03-06",
-        "fornecedor": "Rodinei",
-        "valor": 2850.00,
-        "pagamento": "2020-03-06",
-        "observacoes": "Gesso 1/2"
-    },
-    {
-        "data": "2020-03-14",
-        "fornecedor": "Ponto das tintas",
-        "valor": 288.00,
-        "pagamento": "2020-03-14",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-03-14",
-        "fornecedor": "Da glória tintas",
-        "valor": 74.00,
-        "pagamento": "2020-03-14",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-03-16",
-        "fornecedor": "Da glória tintas",
-        "valor": 1420.00,
-        "pagamento": "2020-03-16",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-03-18",
-        "fornecedor": "Da glória tintas",
-        "valor": 700.00,
-        "pagamento": "2020-03-18",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-03-19",
-        "fornecedor": "Rodinei",
-        "valor": 1500.00,
-        "pagamento": "2020-03-19",
-        "observacoes": "Gesso 2/2 (pago em dinheiro)"
-    },
-    {
-        "data": "2020-03-20",
-        "fornecedor": "Rodinei",
-        "valor": 2100.00,
-        "pagamento": "2020-03-20",
-        "observacoes": "Gesso 2/2 (transferido)"
-    },
-    {
-        "data": "2020-03-20",
-        "fornecedor": "Longo materiais de construção",
-        "valor": 1350.00,
-        "pagamento": "2020-03-20",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-03-20",
-        "fornecedor": "Valdeci",
-        "valor": 1800.00,
-        "pagamento": "2020-03-20",
-        "observacoes": "Mão de obra (Valdeci, Beto e Vardinho) - mais alguns materiais"
-    },
-    {
-        "data": "2020-03-27",
-        "fornecedor": "Agnaldo",
-        "valor": 3000.00,
-        "pagamento": "2020-03-27",
-        "observacoes": "Mão de obra de pintura 1/3"
-    },
-    {
-        "data": "2020-03-31",
-        "fornecedor": "Pizzoni materiais de construção",
-        "valor": 132.00,
-        "pagamento": "2020-03-31",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-03-31",
-        "fornecedor": "Ornamento",
-        "valor": 800.00,
-        "pagamento": "2020-03-31",
-        "observacoes": "Soleiras das portas e área (pedras)"
-    },
-    {
-        "data": "2020-03-31",
-        "fornecedor": "Da glória tintas",
-        "valor": 200.00,
-        "pagamento": "2020-03-31",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-04-03",
-        "fornecedor": "Nola revestimentos cerâmicos",
-        "valor": 772.00,
-        "pagamento": "2020-04-03",
-        "observacoes": "cimento cola e junta niveladora"
-    },
-    {
-        "data": "2020-04-04",
-        "fornecedor": "Vardinho",
-        "valor": 300.00,
-        "pagamento": "2020-04-04",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-04-04",
-        "fornecedor": "Da glória tintas",
-        "valor": 750.00,
-        "pagamento": "2020-04-04",
-        "observacoes": "-"
-    },
-    {
-        "data": "2020-04-09",
-        "fornecedor": "Incobel",
-        "valor": 1500.00,
-        "pagamento": "2020-04-09",
-        "observacoes": "ripados do painel frontal"
-    },
-    {
-        "data": "2020-04-09",
-        "fornecedor": "Agnaldo",
-        "valor": 3000.00,
-        "pagamento": "2020-04-09",
-        "observacoes": "Mão de obra de pintura 2/3"
-    },
-	{
-        "data": "2020-04-12",
-        "fornecedor": "Vardinho",
-        "valor": 1000.00,
-        "observacoes": "Colocação das portas internas"
-    },
-    {
-        "data": "2020-04-12",
-        "fornecedor": "Vardinho",
-        "valor": 600.00,
-        "observacoes": "Colocação da porta pivotante"
-    },
-    {
-        "data": "2020-04-12",
-        "fornecedor": "Jorge (vidros)",
-        "valor": 2000.00,
-        "observacoes": "Vidros das aberturas externa e da porta do corredor"
-    },
-    {
-        "data": "2020-04-12",
-        "fornecedor": "Jorge (vidros)",
-        "valor": 2500.00,
-        "observacoes": "Vidros frontal e janela da sala (temperados)"
-    },
-    {
-        "data": "2020-04-12",
-        "fornecedor": "Daniel (calhas)",
-        "valor": 1500.00,
-        "observacoes": "Calha pingadeira para a parte superior externa"
-    },
-    {
-        "data": "2020-04-12",
-        "fornecedor": "Agnaldo",
-        "valor": 3000.00,
-        "observacoes": "Mão de obra de pintura 3/3"
-    }
+  {
+    "data": "2019-08-19",
+    "fornecedor": "Início da obra",
+    "valor": 0.00,
+    "pagamento": "2019-08-19",
+    "observacoes": "Limpeza do terreno"
+  },
+  {
+    "data": "2019-08-23",
+    "fornecedor": "Ferro Peterle",
+    "valor": 400.00,
+    "pagamento": "2019-08-23",
+    "observacoes": "10 barras de ferro de 10mm"
+  },
+  {
+    "data": "2019-08-23",
+    "fornecedor": "João Carlos Zanette",
+    "valor": 200.00,
+    "pagamento": "2019-08-23",
+    "observacoes": "Aluguel Conteiner Silti"
+  },
+  {
+    "data": "2019-08-26",
+    "fornecedor": "Furação terreno",
+    "valor": 1050.00,
+    "pagamento": "2019-08-26",
+    "observacoes": "serviço de furação terreno"
+  },
+  {
+    "data": "2019-08-26",
+    "fornecedor": "Longo materiais de construção",
+    "valor": 850.00,
+    "pagamento": "2019-08-26",
+    "observacoes": "madeiras para fundação"
+  },
+  {
+    "data": "2019-08-26",
+    "fornecedor": "ArcelorMittal",
+    "valor": 2174.14,
+    "pagamento": "2019-08-26",
+    "observacoes": "ferros, arames e pregos para fundação"
+  },
+  {
+    "data": "2019-08-27",
+    "fornecedor": "Longo materiais de construção",
+    "valor": 70.00,
+    "pagamento": "2019-08-27",
+    "observacoes": "1 mt areia lavada para fundação"
+  },
+  {
+    "data": "2019-08-28",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 1485.00,
+    "pagamento": "2019-08-28",
+    "observacoes": "-"
+  },
+  {
+    "data": "2019-08-30",
+    "fornecedor": "Valdeci",
+    "valor": 2560.00,
+    "pagamento": "2019-08-30",
+    "observacoes": "Valdeci, Guilherme e Beto - Mão de obra (sapata)"
+  },
+  {
+    "data": "2019-09-04",
+    "fornecedor": "João Vitor Antunes",
+    "valor": 2773.00,
+    "pagamento": "2019-09-04",
+    "observacoes": "Lage treliçada (lage) primeira etapa."
+  },
+  {
+    "data": "2019-09-09",
+    "fornecedor": "Jean (instalação elétrica)",
+    "valor": 1100.00,
+    "pagamento": "2019-09-09",
+    "observacoes": "instalação necessária para ligação da energia (Transferido para o Valdeci pagar)"
+  },
+  {
+    "data": "2019-09-11",
+    "fornecedor": "Folchini empreendimentos imobiliários",
+    "valor": 3080.00,
+    "pagamento": "2019-09-11",
+    "observacoes": "primeira lage (chão)"
+  },
+  {
+    "data": "2019-09-13",
+    "fornecedor": "Valdeci",
+    "valor": 3300.00,
+    "pagamento": "2019-09-13",
+    "observacoes": "Transferido para o Valdeci (ainda falta acertar o valor do Ademir e Antenor) Mão de obra (lage e concreto)"
+  },
+  {
+    "data": "0209-09-18",
+    "fornecedor": "Longo materiais de construção",
+    "valor": 395.00,
+    "pagamento": "0209-09-18",
+    "observacoes": "-"
+  },
+  {
+    "data": "2019-09-23",
+    "fornecedor": "D'oro",
+    "valor": 3117.00,
+    "pagamento": "2019-09-23",
+    "observacoes": "Compra Alianças"
+  },
+  {
+    "data": "2019-09-27",
+    "fornecedor": "Valdeci",
+    "valor": 3550.00,
+    "pagamento": "2019-09-27",
+    "observacoes": "Levantamento de paredes (50 reais de água e energia emprestado) - Mão de obra"
+  },
+  {
+    "data": "2019-10-04",
+    "fornecedor": "Longo materiais de construção",
+    "valor": 6390.00,
+    "pagamento": "2019-10-04",
+    "observacoes": "Canos, tijolos, cimento areia, ferro e cal e mais..."
+  },
+  {
+    "data": "2019-10-08",
+    "fornecedor": "ArcelorMittal",
+    "valor": 2571.15,
+    "pagamento": "2019-10-08",
+    "observacoes": "Ferros para a lage do teto"
+  },
+  {
+    "data": "2019-10-11",
+    "fornecedor": "Valdeci",
+    "valor": 3400.00,
+    "pagamento": "2019-10-11",
+    "observacoes": "Transferido para o Valdeci"
+  },
+  {
+    "data": "2019-10-17",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 213.00,
+    "pagamento": "2019-10-17",
+    "observacoes": "Tábuas, cimento cola e arame"
+  },
+  {
+    "data": "2019-10-21",
+    "fornecedor": "João Vitor Antunes",
+    "valor": 2949.40,
+    "pagamento": "2019-10-21",
+    "observacoes": "Lage treliçada (lage)"
+  },
+  {
+    "data": "2019-10-25",
+    "fornecedor": "Valdeci",
+    "valor": 3000.00,
+    "pagamento": "2019-10-25",
+    "observacoes": "mao de obra"
+  },
+  {
+    "data": "2019-10-30",
+    "fornecedor": "Domingos",
+    "valor": 150.00,
+    "pagamento": "2019-10-30",
+    "observacoes": "Mão de obra do concreto (teto) - Ademir e Antenor"
+  },
+  {
+    "data": "2019-10-30",
+    "fornecedor": "Folchini empreendimentos imobiliários",
+    "valor": 3760.00,
+    "pagamento": "2019-10-30",
+    "observacoes": "segunda lage (teto)"
+  },
+  {
+    "data": "2019-11-01",
+    "fornecedor": "João Carlos Zanette",
+    "valor": 160.00,
+    "pagamento": "2019-11-01",
+    "observacoes": "Aluguel Conteiner Silti"
+  },
+  {
+    "data": "2019-11-01",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 179.00,
+    "pagamento": "2019-11-01",
+    "observacoes": "-"
+  },
+  {
+    "data": "2019-11-08",
+    "fornecedor": "Valdeci",
+    "valor": 3000.00,
+    "pagamento": "2019-11-08",
+    "observacoes": "Lage do teto, corte de parede para caixas e canos de energia Mão de obra (lage e concreto)"
+  },
+  {
+    "data": "2019-11-08",
+    "fornecedor": "Longo materiais de construção",
+    "valor": 2700.00,
+    "pagamento": "2019-11-08",
+    "observacoes": "-"
+  },
+  {
+    "data": "2019-11-08",
+    "fornecedor": "João Vitor Antunes",
+    "valor": 230.00,
+    "pagamento": "2019-11-08",
+    "observacoes": "lage treliçada para a casa da caixa d'água (lage)"
+  },
+  {
+    "data": "2019-11-22",
+    "fornecedor": "Valdeci",
+    "valor": 3300.00,
+    "pagamento": "2019-11-22",
+    "observacoes": "mão de obra parte superior (lage caixa d'água)"
+  },
+  {
+    "data": "2019-11-26",
+    "fornecedor": "Alberto Feliciano",
+    "valor": 2000.00,
+    "pagamento": "2019-11-26",
+    "observacoes": "Encanação (água quente e fria)"
+  },
+  {
+    "data": "2019-11-29",
+    "fornecedor": "João Carlos Zanette",
+    "valor": 180.00,
+    "pagamento": "2019-11-29",
+    "observacoes": "Aluguel Conteiner Silti"
+  },
+  {
+    "data": "2019-12-02",
+    "fornecedor": "Madeireiras Tramavam",
+    "valor": 1015.00,
+    "pagamento": "2019-12-02",
+    "observacoes": "madeiras para armação do telhado"
+  },
+  {
+    "data": "2019-12-05",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 359.00,
+    "pagamento": "2019-12-05",
+    "observacoes": "-"
+  },
+  {
+    "data": "2019-12-06",
+    "fornecedor": "Incobel",
+    "valor": 9800.00,
+    "pagamento": "2019-12-06",
+    "observacoes": "marcos, vistas e aberturas internas e externas"
+  },
+  {
+    "data": "2019-12-06",
+    "fornecedor": "Longo materiais de construção",
+    "valor": 5200.00,
+    "pagamento": "2019-12-06",
+    "observacoes": "-"
+  },
+  {
+    "data": "2019-12-06",
+    "fornecedor": "Valdeci",
+    "valor": 5000.00,
+    "pagamento": "2019-12-06",
+    "observacoes": "Mão de obra"
+  },
+  {
+    "data": "2019-12-10",
+    "fornecedor": "Domingos",
+    "valor": 360.00,
+    "pagamento": "2019-12-10",
+    "observacoes": "Pago para o Antenor (armação para o telhado)"
+  },
+  {
+    "data": "2019-12-11",
+    "fornecedor": "Refricril",
+    "valor": 975.52,
+    "pagamento": "2019-12-11",
+    "observacoes": "Materiais para instalação de ar condicionado"
+  },
+  {
+    "data": "2019-12-16",
+    "fornecedor": "Daniel (calhas)",
+    "valor": 580.00,
+    "pagamento": "2019-12-16",
+    "observacoes": "Calhas do meio do telhado (transferido para o Valdeci)"
+  },
+  {
+    "data": "2019-12-17",
+    "fornecedor": "Rafael",
+    "valor": 480.00,
+    "pagamento": "2019-12-17",
+    "observacoes": "Pré instalação do sistema de ar condicionado"
+  },
+  {
+    "data": "2019-12-18",
+    "fornecedor": "Nola revestimentos cerâmicos",
+    "valor": 12818.36,
+    "pagamento": "2019-12-18",
+    "observacoes": "Cerâmica (pisos e azulejos)"
+  },
+  {
+    "data": "2019-12-20",
+    "fornecedor": "Valdeci",
+    "valor": 5500.00,
+    "pagamento": "2019-12-20",
+    "observacoes": "Mão de obra"
+  },
+  {
+    "data": "2019-12-20",
+    "fornecedor": "Domingos",
+    "valor": 157.00,
+    "pagamento": "2019-12-20",
+    "observacoes": "Tela e ripa para a calha do telhado"
+  },
+  {
+    "data": "2019-12-20",
+    "fornecedor": "Domingos",
+    "valor": 160.00,
+    "pagamento": "2019-12-20",
+    "observacoes": "Mão de obra feito pelo Antenor"
+  },
+  {
+    "data": "2019-12-20",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 128.00,
+    "pagamento": "2019-12-20",
+    "observacoes": "-"
+  },
+  {
+    "data": "2019-12-27",
+    "fornecedor": "João Carlos Zanette",
+    "valor": 180.00,
+    "pagamento": "2019-12-27",
+    "observacoes": "Aluguel Conteiner Silti"
+  },
+  {
+    "data": "0202-01-03",
+    "fornecedor": "Valdeci",
+    "valor": 2200.00,
+    "pagamento": "0202-01-03",
+    "observacoes": "Mão de obra"
+  },
+  {
+    "data": "2020-01-03",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 42.00,
+    "pagamento": "2020-01-03",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-01-06",
+    "fornecedor": "Longo materiais de construção",
+    "valor": 3100.00,
+    "pagamento": "2020-01-06",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-01-17",
+    "fornecedor": "Valdeci",
+    "valor": 3500.00,
+    "pagamento": "2020-01-17",
+    "observacoes": "mão de obra (massa fina interna e contrapiso)"
+  },
+  {
+    "data": "2020-01-27",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 339.00,
+    "pagamento": "2020-01-27",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-01-27",
+    "fornecedor": "Nola revestimentos cerâmicos",
+    "valor": 270.00,
+    "pagamento": "2020-01-27",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-01-27",
+    "fornecedor": "Ornamento",
+    "valor": 320.00,
+    "pagamento": "2020-01-27",
+    "observacoes": "Soleiras das janelas (pedras)"
+  },
+  {
+    "data": "2020-01-28",
+    "fornecedor": "João Carlos Zanette",
+    "valor": 180.00,
+    "pagamento": "2020-01-28",
+    "observacoes": "Aluguel Conteiner Silti"
+  },
+  {
+    "data": "2020-01-30",
+    "fornecedor": "DAS - Simples Nacional",
+    "valor": 387.14,
+    "pagamento": "2020-01-30",
+    "observacoes": "Valdeci"
+  },
+  {
+    "data": "2020-01-31",
+    "fornecedor": "Valdeci",
+    "valor": 3000.00,
+    "pagamento": "2020-01-31",
+    "observacoes": "Mão de obra"
+  },
+  {
+    "data": "2020-01-31",
+    "fornecedor": "Daniel (calhas)",
+    "valor": 1000.00,
+    "pagamento": "2020-01-31",
+    "observacoes": "Calhas das laterais do telhado (Transferido para o Valdeci)"
+  },
+  {
+    "data": "2020-01-31",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 97.00,
+    "pagamento": "2020-01-31",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-01-31",
+    "fornecedor": "Longo materiais de construção",
+    "valor": 260.00,
+    "pagamento": "2020-01-31",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-02-14",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 418.00,
+    "pagamento": "2020-02-14",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-02-14",
+    "fornecedor": "Valdeci",
+    "valor": 2500.00,
+    "pagamento": "2020-02-14",
+    "observacoes": "Mão de obra"
+  },
+  {
+    "data": "2020-02-14",
+    "fornecedor": "Gustavo Santana Ferragens",
+    "valor": 3780.00,
+    "pagamento": "2020-02-14",
+    "observacoes": "Ferragens para as aberturas"
+  },
+  {
+    "data": "2020-02-17",
+    "fornecedor": "Valdeci",
+    "valor": 140.00,
+    "pagamento": "2020-02-17",
+    "dapagamentota": "2020-02-17",
+    "observacoes": "120 para o ajudante do Vardinho (aberturas) e 20 reais para o Valdo pesquisar preços para a parte elétrica"
+  },
+  {
+    "data": "2020-02-20",
+    "fornecedor": "Casa do eletricista",
+    "valor": 694.58,
+    "pagamento": "2020-02-20",
+    "observacoes": "Fios para instalação elétrica inicial"
+  },
+  {
+    "data": "2020-02-27",
+    "fornecedor": "João Carlos Zanette",
+    "valor": 180.00,
+    "pagamento": "2020-02-27",
+    "observacoes": "Aluguel Conteiner Silti"
+  },
+  {
+    "data": "2020-02-28",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 287.00,
+    "pagamento": "2020-02-28",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-02-28",
+    "fornecedor": "Vanessa Galvão Alexandre",
+    "valor": 600.00,
+    "pagamento": "2020-02-28",
+    "observacoes": "Projeto dos móveis da casa"
+  },
+  {
+    "data": "2020-02-28",
+    "fornecedor": "Valdeci",
+    "valor": 2400.00,
+    "pagamento": "2020-02-28",
+    "observacoes": "Mão de obra"
+  },
+  {
+    "data": "2020-03-02",
+    "fornecedor": "Valdo",
+    "valor": 800.00,
+    "pagamento": "2020-03-02",
+    "observacoes": "Instalação elétrica"
+  },
+  {
+    "data": "2020-03-06",
+    "fornecedor": "Edson Castelan (fossa)",
+    "valor": 1730.00,
+    "pagamento": "2020-03-06",
+    "observacoes": "Instalação da fossa"
+  },
+  {
+    "data": "2020-03-06",
+    "fornecedor": "Rodinei",
+    "valor": 2850.00,
+    "pagamento": "2020-03-06",
+    "observacoes": "Gesso 1/2"
+  },
+  {
+    "data": "2020-03-14",
+    "fornecedor": "Ponto das tintas",
+    "valor": 288.00,
+    "pagamento": "2020-03-14",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-03-14",
+    "fornecedor": "Da glória tintas",
+    "valor": 74.00,
+    "pagamento": "2020-03-14",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-03-16",
+    "fornecedor": "Da glória tintas",
+    "valor": 1420.00,
+    "pagamento": "2020-03-16",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-03-18",
+    "fornecedor": "Da glória tintas",
+    "valor": 700.00,
+    "pagamento": "2020-03-18",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-03-19",
+    "fornecedor": "Rodinei",
+    "valor": 1500.00,
+    "pagamento": "2020-03-19",
+    "observacoes": "Gesso 2/2 (pago em dinheiro)"
+  },
+  {
+    "data": "2020-03-20",
+    "fornecedor": "Rodinei",
+    "valor": 2100.00,
+    "pagamento": "2020-03-20",
+    "observacoes": "Gesso 2/2 (transferido)"
+  },
+  {
+    "data": "2020-03-20",
+    "fornecedor": "Longo materiais de construção",
+    "valor": 1350.00,
+    "pagamento": "2020-03-20",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-03-20",
+    "fornecedor": "Valdeci",
+    "valor": 1800.00,
+    "pagamento": "2020-03-20",
+    "observacoes": "Mão de obra (Valdeci, Beto e Vardinho) - mais alguns materiais"
+  },
+  {
+    "data": "2020-03-27",
+    "fornecedor": "Agnaldo",
+    "valor": 3000.00,
+    "pagamento": "2020-03-27",
+    "observacoes": "Mão de obra de pintura 1/3"
+  },
+  {
+    "data": "2020-03-31",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 132.00,
+    "pagamento": "2020-03-31",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-03-31",
+    "fornecedor": "Ornamento",
+    "valor": 800.00,
+    "pagamento": "2020-03-31",
+    "observacoes": "Soleiras das portas e área (pedras)"
+  },
+  {
+    "data": "2020-03-31",
+    "fornecedor": "Da glória tintas",
+    "valor": 200.00,
+    "pagamento": "2020-03-31",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-04-03",
+    "fornecedor": "Nola revestimentos cerâmicos",
+    "valor": 772.00,
+    "pagamento": "2020-04-03",
+    "observacoes": "cimento cola e junta niveladora"
+  },
+  {
+    "data": "2020-04-04",
+    "fornecedor": "Vardinho",
+    "valor": 300.00,
+    "pagamento": "2020-04-04",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-04-04",
+    "fornecedor": "Da glória tintas",
+    "valor": 750.00,
+    "pagamento": "2020-04-04",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-04-09",
+    "fornecedor": "Incobel",
+    "valor": 1500.00,
+    "pagamento": "2020-04-09",
+    "observacoes": "ripados do painel frontal"
+  },
+  {
+    "data": "2020-04-09",
+    "fornecedor": "Agnaldo",
+    "valor": 3000.00,
+    "pagamento": "2020-04-09",
+    "observacoes": "Mão de obra de pintura 2/3"
+  },
+  {
+    "data": "2020-04-16",
+    "fornecedor": "Nola revestimentos cerâmicos",
+    "valor": 345.00,
+    "pagamento": "2020-04-16",
+    "observacoes": "cimento cola e junta niveladora"
+  },
+  {
+    "data": "2020-04-16",
+    "fornecedor": "Jorge (vidros)",
+    "valor": 2000.00,
+    "pagamento": "2020-04-16",
+    "observacoes": "Vidros frontal e janela da sala (temperados)"
+  },
+  {
+    "data": "2020-04-17",
+    "fornecedor": "Pizzoni materiais de construção",
+    "valor": 201.00,
+    "pagamento": "2020-04-17",
+    "observacoes": "-"
+  },
+  {
+    "data": "2020-04-17",
+    "fornecedor": "Valdeci",
+    "valor": 2500.00,
+    "pagamento": "2020-04-17",
+    "observacoes": "Mão de obra de colocação dos pisos"
+  },
+  {
+    "data": "2020-04-20",
+    "fornecedor": "Vardinho",
+    "valor": 1000.00,
+    "observacoes": "Colocação das portas internas"
+  },
+  {
+    "data": "2020-04-20",
+    "fornecedor": "Vardinho",
+    "valor": 800.00,
+    "observacoes": "Colocação da porta pivotante"
+  },
+  {
+    "data": "2020-04-20",
+    "fornecedor": "Jorge (vidros)",
+    "valor": 2500.00,
+    "observacoes": "Vidros frontal (temperados)"
+  },
+  {
+    "data": "2020-04-20",
+    "fornecedor": "Daniel (calhas)",
+    "valor": 1500.00,
+    "observacoes": "Calha pingadeira para a parte superior externa"
+  },
+  {
+    "data": "2020-04-12",
+    "fornecedor": "Agnaldo",
+    "valor": 3000.00,
+    "observacoes": "Mão de obra de pintura 3/3"
+  }
 ]

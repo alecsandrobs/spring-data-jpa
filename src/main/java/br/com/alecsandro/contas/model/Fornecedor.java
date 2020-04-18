@@ -18,6 +18,11 @@ public class Fornecedor extends AbstractEntity {
         this.nome = nome;
     }
 
+    public Fornecedor(Long id, @NotEmpty(message = "O nome é obrigatório") String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
+
     public String getNome() {
         return nome;
     }
