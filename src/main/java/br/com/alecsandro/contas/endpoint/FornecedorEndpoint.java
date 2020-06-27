@@ -3,11 +3,15 @@ package br.com.alecsandro.contas.endpoint;
 import br.com.alecsandro.contas.error.ResourseNotFoundException;
 import br.com.alecsandro.contas.model.Fornecedor;
 import br.com.alecsandro.contas.repository.FornecedorRepository;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.Authentication;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
@@ -26,6 +30,7 @@ public class FornecedorEndpoint {
     }
 
     @GetMapping
+    @ApiOperation(value = "Retorna uma lista com todos os fornecedores", response = Fornecedor[].class)
     public ResponseEntity<?> listAll(Pageable pageable) {
         return new ResponseEntity<>(dao.findAll(pageable), HttpStatus.OK);
     }

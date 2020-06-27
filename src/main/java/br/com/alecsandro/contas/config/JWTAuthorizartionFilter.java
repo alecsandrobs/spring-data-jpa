@@ -27,6 +27,25 @@ public class JWTAuthorizartionFilter extends BasicAuthenticationFilter {
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException {
+
+        String header = request.getHeader(HEADER);
+        if (header == null || !header.startsWith(TOKEN_PREFIX)) {
+            SecurityContextHolder.getContext().setAuthentication(null);
+            chain.doFilter(request, response);
+            return;
+        }
+
+        try {
+            UsernamePasswordAuthenticationToken authenticationToken = getAuthenticationToken(request);
+            SecurityContextHolder.getContext().setAuthentication(authenticationToken);
+        } catch (Exception e) {
+            SecurityContextHolder.getContext().setAuthentication(null);
+        }
+        chain.doFilter(request, response);
+    }
+
+    /*@Override
+    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException {
         String header = request.getHeader(HEADER);
         if (header == null || !header.startsWith(TOKEN_PREFIX)) {
             chain.doFilter(request, response);
@@ -35,14 +54,14 @@ public class JWTAuthorizartionFilter extends BasicAuthenticationFilter {
         UsernamePasswordAuthenticationToken authenticationToken = getAuthenticationToken(request);
         SecurityContextHolder.getContext().setAuthentication(authenticationToken);
         chain.doFilter(request, response);
-    }
+    }*/
 
     private UsernamePasswordAuthenticationToken getAuthenticationToken(HttpServletRequest request) {
         String token = request.getHeader(HEADER);
         if (token == null) return null;
-        String nomeUsuario = Jwts.parser().setSigningKey(SECRET).parseClaimsJws(token.replace(TOKEN_PREFIX, "")).getBody().getSubject();
-        UserDetails userDetails = userDetailService.loadUserByUsername(nomeUsuario);
-        return nomeUsuario != null ? new UsernamePasswordAuthenticationToken(nomeUsuario, null, userDetails.getAuthorities()) : null;
+        String usuario = Jwts.parser().setSigningKey(SECRET).parseClaimsJws(token.replace(TOKEN_PREFIX, "")).getBody().getSubject();
+        UserDetails userDetails = userDetailService.loadUserByUsername(usuario);
+        return usuario != null ? new UsernamePasswordAuthenticationToken(usuario, null, userDetails.getAuthorities()) : null;
     }
 
 }

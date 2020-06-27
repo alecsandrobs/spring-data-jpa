@@ -101,6 +101,7 @@ public class FornecedorEndpointTest {
 
     @Test
     public void deleteWhenUserHasRoleAdminAndFornecedorDoesNotExistsShouldReturnSatusCode404() {
+//        restTemplate = restTemplate.withBasicAuth("admin", "nimda");
         BDDMockito.doNothing().when(fornecedorRepository).delete(new Fornecedor(2L, "Teste"));
         ResponseEntity<String> response = restTemplate.exchange("/fornecedores/{id}", DELETE, null, String.class, 2L);
         assertThat(response.getStatusCodeValue()).isEqualTo(404);
